@@ -49,4 +49,18 @@ def get_products_by_id(id):
     return "NOT FOUND !"
 
 
+@app.get("/api/catagories")
+def get_catagories():
+    catagories = []
+    for product in mock_data:
+        catagories.append(product["catagory"])
+    return json.dumps(catagories)
+
+# get/api/catagories
+# return the list of catagories
+# 1 return ok
+# 2 travel mock_data, and print the catagory of every product
+# 3 put the catagory in a list and at the end of the for loop, return the list as json
+
+
 app.run(debug=True)
