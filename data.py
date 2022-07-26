@@ -7,7 +7,7 @@ mock_data = [
         "stock": 1,
         "title": 'Jordan 11',
         "image": "spacejam.webp",
-        "catagory": "Jordans"
+        "category": "Jordans"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@ mock_data = [
         "stock": 1,
         "title": 'Jordan 1',
         "image": "blacktoe.jpeg",
-        "catagory": "Jordans"
+        "category": "Jordans"
     },
     {
         "id": 3,
@@ -23,7 +23,7 @@ mock_data = [
         "stock": 1,
         "title": "Jordan 4",
         "image": "bred.jpeg",
-        "catagory": "Jordans",
+        "category": "Jordans",
     },
     {
         "id": 4,
@@ -31,7 +31,7 @@ mock_data = [
         "stock": 1,
         "title": "Air Max",
         "image": "air.jpeg",
-        "catagory": "Nike",
+        "category": "Nike",
     },
     {
         "id": 5,
@@ -39,7 +39,7 @@ mock_data = [
         "stock": 1,
         "title": "Yeezy 380",
         "image": "380.jpeg",
-        "catagory": "Yeezy",
+        "category": "Yeezy",
     },
 
 
